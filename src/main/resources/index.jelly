@@ -1,0 +1,6 @@
+<!--
+  This view is used to render the installed plugins page.
+-->
+<div>
+  This plugin is a wrapper for Octopus client application - octo.exe. It provides support for release creation.
+</div>

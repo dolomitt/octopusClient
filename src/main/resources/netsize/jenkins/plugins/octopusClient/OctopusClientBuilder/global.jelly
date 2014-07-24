@@ -1,0 +1,16 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Octopus Client">
+    <f:entry title="Executable Path" field="executablePath"
+      description="Executable Path to Octopus i.e. Octo.exe">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Octopus Url" field="octopusUrl"
+      description="Octopus url">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Api Key" field="apiKey"
+      description="Api Key">
+      <f:textbox />
+    </f:entry>
+  </f:section>
+</j:jelly>
